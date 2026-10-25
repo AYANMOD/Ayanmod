@@ -4,6 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AYAN PORTAL · Key Gateway</title>
+
+<!-- Adsterra Popunder Script -->
+<script data-cfasync="false" src="https://afders.org/1/c51f96cc843cad446119ec0c6fac4a56"></script>
+
+<!-- Adsterra Social Bar Script -->
+<script data-cfasync="false" src="https://bicea.org/14/cffff5c0630442b17ba69b33c1e86b64"></script>
+
 <style>
 :root{--bg:#0a0c10;--bg2:#11141c;--cy:#00f2fe;--bl:#4facfe;--gr:#00ff88;--am:#ffaa00;--red:#ff4d4d;--tx:#fff;--mut:#9aa6b8;--ln:rgba(0,242,254,.28);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
@@ -23,7 +30,7 @@ h1{font-size:26px;line-height:1.2;margin:0 0 6px}
 h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 .sub,.meta{color:var(--mut);margin:0}
 .meta{font-size:14px;text-align:center}
-.btn{display:block;width:100%;border:0;border-radius:999px;padding:16px 20px;font-family:inherit;font-weight:800;font-size:15px;line-height:1.2;letter-spacing:.08em;color:#04121a;background:linear-gradient(90deg,var(--cy),var(--bl));cursor:pointer;box-shadow:0 0 18px rgba(0,242,254,.4);transition:transform .15s}
+.btn{display:block;width:100%;border:0;border-radius:999px;padding:16px 20px;font-family:inherit;font-weight:800;font-size:15px;line-height:1.2;letter-spacing:.08em;color:#04121a;background:linear-gradient(90deg,var(--cy),var(--bl));cursor:pointer;box-shadow:0 0 18px rgba(0,242,254,.4);transition:transform .15s;text-decoration:none;text-align:center}
 .btn:active:not(:disabled){transform:scale(.98)}
 .btn small{display:block;font-weight:600;opacity:.75;letter-spacing:.04em;margin-top:4px}
 .btn.go{background:var(--gr);animation:glow 1.6s infinite}
@@ -42,7 +49,7 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--cy),var(--gr));box-shadow:0 0 12px var(--cy);transition:width .3s linear}
 #msg{font:13px ui-monospace,Consolas,monospace;color:var(--cy);margin:0;min-height:20px}
 /* ===== AD SLOTS ===== */
-.ad{position:relative;max-width:100%;overflow:hidden;min-height:90px;margin-top:16px;border:1px dashed rgba(255,255,255,.18);border-radius:14px;background:rgba(255,255,255,.02)}
+.ad{position:relative;max-width:100%;overflow:hidden;min-height:90px;margin-top:16px;border:1px dashed rgba(255,255,255,.18);border-radius:14px;background:rgba(255,255,255,.02);text-decoration:none;display:block}
 .ad.tall{min-height:250px}
 .ad>span{position:absolute;inset:0;display:grid;place-items:center;font:11px ui-monospace,Consolas,monospace;letter-spacing:.15em;color:#5b6678;text-align:center}
 .ad>:not(span){position:relative;z-index:1;max-width:100%}
@@ -72,21 +79,18 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
       <p class="sub">Choose your session length, then complete the verification steps to unlock your key.</p>
     </div>
 
-    <!-- Home Ad 1 -->
-    <div class="ad" id="homeAd1">
-      <!-- HOME_AD_1 -->
-      <span>AD SLOT 1 · BANNER</span>
-    </div>
+    <!-- Home Ad 1 (Connected to Smartlink) -->
+    <a href="https://arwf.org/4/f3611c59fbae657ab449695c80e2a0e0" target="_blank" rel="noopener noreferrer" class="ad" id="homeAd1">
+      <span>SPONSORED OFFER · TAP TO OPEN</span>
+    </a>
 
     <!-- Home Ad 2 -->
     <div class="ad" id="homeAd2">
-      <!-- HOME_AD_2 -->
       <span>AD SLOT 2 · BANNER</span>
     </div>
 
     <!-- Home Ad 3 -->
     <div class="ad tall" id="homeAd3">
-      <!-- HOME_AD_3 -->
       <span>AD SLOT 3 · INTERSTITIAL</span>
     </div>
 
@@ -98,19 +102,16 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 
     <!-- Home Ad 4 -->
     <div class="ad" id="homeAd4">
-      <!-- HOME_AD_4 -->
       <span>AD SLOT 4 · BANNER</span>
     </div>
 
     <!-- Home Ad 5 -->
     <div class="ad" id="homeAd5">
-      <!-- HOME_AD_5 -->
       <span>AD SLOT 5 · BANNER</span>
     </div>
 
     <!-- Home Ad 6 -->
     <div class="ad tall" id="homeAd6">
-      <!-- HOME_AD_6 -->
       <span>AD SLOT 6 · INTERSTITIAL</span>
     </div>
   </section>
@@ -126,19 +127,16 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 
     <!-- Step Ad 1 -->
     <div class="ad" id="stepAd1">
-      <!-- STEP_AD_1 -->
       <span>AD SLOT 1 · BANNER</span>
     </div>
 
     <!-- Step Ad 2 -->
     <div class="ad" id="stepAd2">
-      <!-- STEP_AD_2 -->
       <span>AD SLOT 2 · BANNER</span>
     </div>
 
     <!-- Step Ad 3 -->
     <div class="ad tall" id="stepAd3">
-      <!-- STEP_AD_3 -->
       <span>AD SLOT 3 · INTERSTITIAL</span>
     </div>
 
@@ -147,25 +145,21 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 
     <!-- Step Ad 4 -->
     <div class="ad" id="stepAd4">
-      <!-- STEP_AD_4 -->
       <span>AD SLOT 4 · BANNER</span>
     </div>
 
     <!-- Step Ad 5 -->
     <div class="ad" id="stepAd5">
-      <!-- STEP_AD_5 -->
       <span>AD SLOT 5 · BANNER</span>
     </div>
 
     <!-- Step Ad 6 -->
     <div class="ad tall" id="stepAd6">
-      <!-- STEP_AD_6 -->
       <span>AD SLOT 6 · INTERSTITIAL</span>
     </div>
 
     <!-- Step Ad 7 -->
     <div class="ad" id="stepAd7">
-      <!-- STEP_AD_7 -->
       <span>AD SLOT 7 · BANNER</span>
     </div>
   </section>
@@ -192,10 +186,12 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
   <div class="card modal">
     <span class="tag">SPONSORED</span>
     <h2 id="mTitle"></h2>
-    <div class="ad" id="adModal">
-      <!-- AD_SLOT_MODAL -->
-      <span>AD SLOT · SPONSORED</span>
-    </div>
+    <!-- Smartlink Ad Slot (Tapping this opens the sponsor link) -->
+    <a href="https://arwf.org/4/f3611c59fbae657ab449695c80e2a0e0" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+      <div class="ad tall" id="adModal" style="cursor:pointer;border-color:var(--cy)">
+        <span style="color:var(--cy);font-weight:700">👉 TAP HERE TO VISIT SPONSOR AD & UNLOCK 👈</span>
+      </div>
+    </a>
     <button class="btn" id="mBtn" disabled></button>
   </div>
 </div>
@@ -206,6 +202,7 @@ h2{font-size:17px;margin:12px 0 0;letter-spacing:.04em}
 const $ = id => document.getElementById(id);
 const AD_SECS = 20, STEP_SECS = 15;
 const FIREBASE_DB_URL = "https://ayan-5b26c-default-rtdb.firebaseio.com";
+const SMARTLINK_URL = "https://arwf.org/4/f3611c59fbae657ab449695c80e2a0e0";
 
 const MSGS = [
   "Connecting to Firebase Database node...",
